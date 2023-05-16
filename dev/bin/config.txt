@@ -1,0 +1,86 @@
+#--------------------------------+
+#   JOilsWell configuration file   |
+#--------------------------------+
+
+
+
+# GUI settings
+#------------------------
+# Grid visualization
+isGridVisible = false
+
+# RGB color values for MazePanel Background
+R_MAZE_BACKGROUND = 96
+G_MAZE_BACKGROUND = 96
+B_MAZE_BACKGROUND = 96
+
+# RGB color values for Drill
+R_DRILL = 220
+G_DRILL = 255
+B_DRILL = 0
+
+# RGB color values for Pipe
+R_PIPE = 11
+G_PIPE = 193
+B_PIPE = 73
+
+# Walls' color per level; available = (blue, red, violet)
+wallsColor1 = blue
+wallsColor2 = red
+wallsColor3 = violet
+
+# Time delay for transition panel (10 = 1 sec)
+transitionTime = 10
+
+
+
+# Model Timers settings
+#------------------------
+# Base delay time between two consecutive entites spawn; expressed in milliseconds (ms)
+ENTITIES_SPAWN_TIMER_SLOW = 4000
+ENTITIES_SPAWN_TIMER_MEDIUM = 3000
+ENTITIES_SPAWN_TIMER_FAST = 2750
+
+# Gaming time for each difficulty; expressed in seconds
+timeSimple = 180
+timeMedium = 180
+timeDifficult = 120
+
+
+# Pellets settings
+#------------------------
+# Number of pellets per level
+numberOfPellets = 100
+
+# Points received after eating one pellet
+pelletPoints = 10
+
+
+
+# Entities settings
+#------------------------
+# Entities probability of spawning
+monstersProbability = 0.9
+minesProbability = 0.1
+
+# Monsters types probability
+goblinProbability = 0.7
+spiderProbability = 0.2
+snakeProbability = 0.1
+
+# Points received after eating monsters
+goblinPoints = 50
+spiderPoints = 150
+snakePoints = 300
+
+# Movement space of entities
+ENTITIES_VELOCITY_SLOW = 0.5
+ENTITIES_VELOCITY_MEDIUM = 0.75
+ENTITIES_VELOCITY_FAST = 1.0
+
+
+
+# Animation settings
+#------------------------
+# Delay time between two consecutive frames; expressed in milliseconds (ms)
+delayTime = 250
